@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENNIS MUTHAMA | Blockchain & Backend Dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="container">
+            <h1>DENNIS<span>MUTHAMA</span></h1>
+            <p class="tagline">Backend & Blockchain Developer</p>
+            <nav>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h2>Building Scalable Backends & Smart Contracts</h2>
+                    <p>I specialize in <strong>Python/Django</strong> for backend systems and <strong>Solidity/Hardhat</strong> for blockchain development.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a href="#contact" class="btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-snippet">
+                        <pre><code class="language-solidity">
+// Sample Solidity Smart Contract
+contract YourProject {
+    mapping(address => uint) public balances;
+    
+    function deposit() public payable {
+        balances[msg.sender] += msg.value;
+    }
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Backend Development</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                        <ul>
+                            <li>Python (Django)</li>
+                            <li>RESTful APIs</li>
+                            <li>Pandas</li>
+                            <li>PHP</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Blockchain</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                        <ul>
+                            <li>Solidity (Hardhat, Truffle)</li>
+                            <li>Ethers.js, Web3.js</li>
+                            <li>ganache</li>
+                            <li>Metamask connection</li>
+                             <li>Smart Contract Deployment</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Front-end</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>VOTING DAPP</h3>
+                        <p>voting using smart addresses in the ethereum chain and automatically display real-time results of election outcome</p>
+                        <div class="tech-tags">
+                            <span>Solidity</span>
+                            <span>Hardhat</span>
+                            <span>React</span>
+                            <span>ethers.js</span>
+                            <span>Metamask wallet</span>
+                        </div>
+                        <a href="https://github.com/DennisMuthama/BLOCK-VOTE" class="btn-small">View Demo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>COW MANAGER SYSTEM</h3>
+                        <p>For tracking daily cow produce as well as connecting the farmers to the vets for medical asssitance</p>
+                        <div class="tech-tags">
+                            <span>django</span>
+                            <span>Python</span>
+                          
+                        </div>
+                        <a href="https://github.com/DennisMuthama/cow-manager" class="btn-small">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>dennismuthama102@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>github.com/DennisMuthama</p>
+                    </div>
+                    <!-- <div class="contact-card">
+                        <i class="fab fa-twitter"></i>
+                        <h3>Twitter</h3>
+                        <p>@yourhandle</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 dennismuthama. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
