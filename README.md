@@ -12,7 +12,7 @@ https://dennismuthama.github.io/DennisMuthama-PORTFOLIO/
 
 ## About Me
 
-Final-year Software Engineering student specializing in backend systems and blockchain development.
+Software Engineer graduate focusing on fullstack and blockchain development.
 I build scalable Django backends and write smart contracts in Solidity.
 
 ---
@@ -20,7 +20,7 @@ I build scalable Django backends and write smart contracts in Solidity.
 ## Skills
 
 **Backend**
-Python · Django · RESTful APIs · Pandas · PHP · MongoDB
+Python · Django · Pandas · PHP · MongoDB
 
 **Blockchain**
 Solidity · Hardhat · Truffle · Ethers.js · Web3.js · Ganache · MetaMask
